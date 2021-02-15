@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">MyCalc</string>
+    <string name="btn_uno">1</string>
+    <string name="btn_dos">2</string>
+    <string name="btn_tres">3</string>
+    <string name="btn_cuatro">4</string>
+    <string name="btn_cinco">5</string>
+    <string name="btn_seis">6</string>
+    <string name="btn_siete">7</string>
+    <string name="btn_ocho">8</string>
+    <string name="btn_nueve">9</string>
+    <string name="btn_cero">0</string>
+    <string name="btn_suma">+</string>
+    <string name="btn_resta">-</string>
+    <string name="btn_multiplicacion">*</string>
+    <string name="btn_division">÷</string>
+    <string name="btn_resultado">=</string>
+    <string name="btn_borrarUno">&#10782;</string>
+    <string name="btn_atras">←</string>
+    <string name="btn_adelante">→</string>
+    <string name="btn_punto">.</string>
+    <string name="btn_borrarTodo">&#10703;</string>
+</resources>

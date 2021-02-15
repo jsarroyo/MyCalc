@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+
+    <Button
+        android:id="@+id/btn_Uno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:text="@string/btn_uno"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_Dos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:text="@string/btn_dos"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btn_Uno"
+        app:layout_constraintStart_toEndOf="@+id/btn_Uno" />
+
+    <Button
+        android:id="@+id/btn_Tres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:text="@string/btn_tres"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btn_Dos"
+        app:layout_constraintStart_toEndOf="@+id/btn_Dos" />
+
+
+    <Button
+        android:id="@+id/btn_Suma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:text="@string/btn_suma"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btn_Tres"
+        app:layout_constraintStart_toEndOf="@+id/btn_Tres" />
+
+    <Button
+        android:id="@+id/btn_Cuatro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:text="@string/btn_cuatro"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_Uno" />
+
+    <Button
+        android:id="@+id/btn_Cinco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:text="@string/btn_cinco"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btn_Cuatro"
+        app:layout_constraintStart_toEndOf="@+id/btn_Cuatro" />
+
+    <Button
+        android:id="@+id/btn_Seis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:text="@string/btn_seis"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btn_Cinco"
+        app:layout_constraintStart_toEndOf="@+id/btn_Cinco" />
+
+    <Button
+        android:id="@+id/btn_Resta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:text="@string/btn_resta"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btn_Seis"
+        app:layout_constraintStart_toEndOf="@+id/btn_Seis" />
+
+
+    <Button
+    android:id="@+id/btn_Siete"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="12dp"
+    android:text="@string/btn_siete"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/btn_Cuatro" />
+
+    <Button
+        android:id="@+id/btn_Ocho"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:text="@string/btn_ocho"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btn_Siete"
+        app:layout_constraintStart_toEndOf="@+id/btn_Siete" />
+
+    <Button
+        android:id="@+id/btn_Nueve"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:text="@string/btn_seis"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btn_Ocho"
+        app:layout_constraintStart_toEndOf="@+id/btn_Ocho" />
+
+    <Button
+        android:id="@+id/btn_Multiplicacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:text="@string/btn_multiplicacion"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btn_Nueve"
+        app:layout_constraintStart_toEndOf="@+id/btn_Nueve" />
+
+
+
+    <Button
+        android:id="@+id/btn_Cero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:text="@string/btn_cero"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_Siete" />
+
+    <Button
+        android:id="@+id/btn_Punto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:text="@string/btn_punto"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btn_Cero"
+        app:layout_constraintStart_toEndOf="@+id/btn_Cero" />
+
+    <Button
+        android:id="@+id/btn_Resultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:text="@string/btn_resultado"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btn_Punto"
+        app:layout_constraintStart_toEndOf="@+id/btn_Punto" />
+
+    <Button
+        android:id="@+id/btn_Division"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:text="@string/btn_division"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btn_Resultado"
+        app:layout_constraintStart_toEndOf="@+id/btn_Resultado" />
+
+
+    <Button
+        android:id="@+id/btn_BorrarUno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:text="@string/btn_borrarUno"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_Cero" />
+
+    <Button
+        android:id="@+id/btn_BorrarTodo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:text="@string/btn_borrarTodo"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btn_BorrarUno"
+        app:layout_constraintStart_toEndOf="@+id/btn_BorrarUno" />
+
+    <Button
+        android:id="@+id/btn_Atras"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:text="@string/btn_atras"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btn_BorrarTodo"
+        app:layout_constraintStart_toEndOf="@+id/btn_BorrarTodo" />
+
+    <Button
+        android:id="@+id/btn_Adelante"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:text="@string/btn_adelante"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btn_Atras"
+        app:layout_constraintStart_toEndOf="@+id/btn_Atras" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
